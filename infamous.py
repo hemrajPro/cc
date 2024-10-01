@@ -17,10 +17,10 @@ from karma import *
 
 @dp.message(Command("start"))
 async def helpstr(message: types.Message):
-    btn_owner = types.InlineKeyboardButton(text="Owner", url="https://t.me/O_oKarma")
+    btn_owner = types.InlineKeyboardButton(text="Owner", url="https://t.me/Hemraj_Pro")
     btn_commands = types.InlineKeyboardButton(text="Commands", callback_data="commands")
     btn_channel = types.InlineKeyboardButton(
-        text="Channel", url="https://t.me/ProjectCodeX"
+        text="Channel", url="https://t.me/ZaidHub"
     )
 
     keyboard_markup = types.InlineKeyboardMarkup(
@@ -77,10 +77,10 @@ async def process_commands(callback_query: types.CallbackQuery):
 
 @dp.callback_query(lambda query: query.data == "back")
 async def process_back(callback_query: types.CallbackQuery):
-    btn_owner = types.InlineKeyboardButton(text="Owner", url="https://t.me/O_oKarma")
+    btn_owner = types.InlineKeyboardButton(text="Owner", url="https://t.me/Hemraj_Pro")
     btn_commands = types.InlineKeyboardButton(text="Commands", callback_data="commands")
     btn_channel = types.InlineKeyboardButton(
-        text="Channel", url="https://t.me/ProjectCodeX"
+        text="Channel", url="https://t.me/ZaidHub"
     )
 
     keyboard_markup = types.InlineKeyboardMarkup(
